@@ -1,0 +1,122 @@
+#container{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.introdution{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 50%;
+  background: var(--color-primary);
+  background-image: url('../../assets/images/Background.svg');
+}
+
+.introdution .logo img {
+  width: 200px;
+}
+
+.introdution .logo p{
+  color: var(--color-text-in-primary);
+  font-size: 2rem;
+}
+
+.login-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  width: 50%;
+  background: var(--color-background);
+}
+
+.login h1{
+  color: var(--color-text-title);
+  font-size: 36px;
+  line-height: 36px;
+
+}
+
+.login main form .input-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+
+  margin-top: 40px;
+}
+
+.login main form .input-group input{
+  width: 350px;
+  height: 71px;
+  padding: 1.4rem;
+  border: 0;
+  border-bottom: 2px solid var(--color-line-in-white); 
+  border-radius: 1.5rem;
+  background: var(--color-input-background);
+}
+
+.login main form .forgot-password {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  font: 400 1.4rem Poppins;
+  padding: 24px 0;
+  color: var(--color-text-complement);
+}
+
+.login main form .forgot-password a{
+  text-decoration: none;
+
+  color: var(--color-text-complement);
+}
+
+.login main form button{
+  width: 352px;
+  height: 56px;
+  margin-top: 16px;
+  background: var(--color-secundary);
+
+  border: 0;
+  border-radius: 8px;
+
+  color: #fff;
+  font: 600 1.6rem Archivo;
+}
+
+.login footer .cadastro-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.login footer .cadastro-container .first-text{
+  font: 400 16px Poppins;
+  max-width: 150px;
+  color: var( --color-text-base);
+}
+
+.login footer .cadastro-container .first-text a{  
+  color: var(--color-primary);
+}
+
+.login footer .cadastro-container p + p{
+  display: flex;
+  align-items: center;
+}
+
+.login footer .cadastro-container p img{
+  margin-left: 4px;
+}
